@@ -1,9 +1,10 @@
-[README.md](https://github.com/user-attachments/files/24484172/README.md)
 # 🎬 Video Frame Extractor 
 
 A desktop GUI application built with **PyQt5** and **OpenCV** to extract frames from videos with precise control over **frame ranges**, **time ranges**, and **sampling FPS**.
 
 This tool is designed for **computer vision**, **machine learning preprocessing**, **video analysis**, and **dataset preparation** workflows.
+
+The application is distributed both as Python source code and as a standalone Windows executable (no Python installation required).
 
 ---
 
@@ -53,25 +54,25 @@ video-frame-extractor/
 ### English Version
 python video_frame_tool_gui_eng_full.py
 
-Turkish Version
+### Turkish Version
 python video_frame_tool_gui_tr.py
 
-🧰 Requirements
+## 🧰 Requirements
 Python 3.9+
 
 PyQt5
 
 OpenCV
 
-Install dependencies:
+### Install dependencies:
 pip install pyqt5 opencv-python
 
-🧠 How It Works
+## 🧠 How It Works
 Load a video via drag & drop or Select File
 
 The app automatically previews the 5th frame
 
-Choose trim mode:
+### Choose trim mode:
 
 Frame range (e.g. 100 → 500)
 
@@ -87,7 +88,7 @@ Click Extract (Save Frames)
 
 Frames are saved as indexed .jpg files.
 
-📤 Output Format
+### 📤 Output Format
 Example filename:
 
 frame_000120_000015.jpg
@@ -95,7 +96,8 @@ First number → original frame index
 
 Second number → extracted frame counter
 
-🚀 Use Cases
+## 🚀 Use Cases
+
 Computer Vision dataset creation
 
 Machine Learning preprocessing
@@ -106,3 +108,15 @@ Annotation pipelines
 
 Debugging video streams
 
+## 📦 Download (Windows – Recommended)
+
+[![Release](https://img.shields.io/github/v/release/NasuhcanNT/Video-Frame-Extractor)](https://github.com/NasuhcanNT/Video-Frame-Extractor/releases)
+
+
+You can download the standalone Windows executable from the GitHub Releases page:
+
+👉 https://github.com/NasuhcanNT/Video-Frame-Extractor/releases
+
+✅ No Python required
+✅ Single .exe file
+✅ Ready to run on any Windows PC
