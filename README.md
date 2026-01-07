@@ -110,7 +110,7 @@ Debugging video streams
 
 ## 📦 Download (Windows – Recommended)
 
-[![Release](https://img.shields.io/github/v/release/NasuhcanNT/Video-Frame-Extractor)](https://github.com/NasuhcaNT/Video-Frame-Extractor/releases/tag/v1.0.0)
+[![Release](https://img.shields.io/github/v/release/NasuhcaNT/Video-Frame-Extractor)](https://github.com/NasuhcaNT/Video-Frame-Extractor/releases/tag/v1.0.0)
 
 
 You can download the standalone Windows executable from the GitHub Releases page:
